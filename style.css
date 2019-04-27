@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+overflow-x:hidden;
+font-family: 'Roboto', sans-serif;
+color:#505962;
+}
+
+
+/* ~~~~~~~~~~~~NAVIGATION ~~~~~~~~~~~~~ */
+.navbar{
+font-weight:700;
+font-size:1rem;
+letter-spacing:.1rem;
+background:rgba(0 , 0, 0, 0.6) !important;
+}
+.navbar-brand img{
+height:2.8rem;
+width:130px;
+}
+
+.navbar-nav li{
+padding-right:0.7rem;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+color:white;
+}
+.navbar .navbar-nav .nav-item .nav-link.active, .navbar .navbar-nav .nav-item .nav-link:hover{
+color:#FF33FF;
+}
+
+/* ~~~~~~~~~~~~Landing Page CSS ~~~~~~~~~~~~~ */
+
+.home-inner{
+background:url(img/computers.png);
+}
+.caption{
+width:100%;
+height:100vh;
+max-width:100%;
+position:absolute;
+top:33%;
+z-index:1;
+color:#FFFFFF;
+
+}
+.caption h1{
+color:#FFFFFF;
+font-size:3rem;
+font-weight:700;
+letter-spacing:0.3rem;
+text-shadow: 0.7rem 0.7rem 0.8rem black;
+padding-bottom:1rem;
+}
+.caption h3{
+font-size:3rem;
+text-shadow: 0.7rem 0.7rem 0.6rem black;
+padding-bottom:1rem;
+}
+
+
+
+.caption a{
+border-radius:0px;
+border-width:3px;
+padding:10px 20px;
+font-size:1.2rem;
+}
+
+
+/*~~~~~~~~~~~~~~~~ COURSES SECTION ~~~~~~~~~~~~~~~~~~*/
+
+#Courses .narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 5rem;
+}
+#Courses .narrow h1 {
+    font-size: 2.4rem;
+	font-weight:700;
+	margin-bottom:1rem;
+  }
+.btn-secondary {
+  border-width: 2px;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+
+/*~~~~~~~~ Features section start~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.jumbotron{
+margin-bottom:0;
+padding:4rem 0 2rem ;
+border-radius:0;
+}
+
+h3.heading{
+font-weight:700;
+font-size:2.5rem;
+margin-bottom:0.3rem;
+}
+
+.heading-underline{
+width:4rem;
+height:.2rem;
+background-color:#1ebba3;
+margin:0  auto 2rem;
+}
+
+.feature svg.svg-inline--fa{
+color:#1ebba3;
+}
+.feature h3{
+font-size:1.3rem;
+text-transform:uppercase;
+margin-bottom:0.8rem;
+
+}
+.feature p{
+padding:0 1rem;
+margin-bottom:1.5rem;
+font-size:1.1rem;
+}
+
+
+/*~~~~~~~~ resource section start~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.fixed-background p,h2{
+
+font-weight:700;
+}
+.dark{
+padding:7.3rem 2rem;
+color:white;
+}
+
+.fixed-wrap .fixed{
+background:url(img/apple.png);
+z-index:-1;
+}
+
+
+/*~~~~~~~~ Clients section start~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+blockquote svg.svg-inline--fa{
+color:#1ebba3;
+margin:0.5rem;
+}
+
+.client-hr{
+border:1px solid #1ebba3;;
+}
+
+/*~~~~~~~~ contact section start~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer{
+background-color:#40474e;
+color:#FFFFFF;
+padding:5rem 0;
+margin-top:3rem;
+}
+footer a{
+color:#FFFFFF;
+}
+footer svg.svg-inline--fa{
+font-size:2.5rem;
+margin:0.2rem 0.1rem;
+}
+footer svg.svg-inline--fa:hover{
+color:#FF00FF;
+}
+hr.socket{
+border:1px solid white;
+width:100%;
+margin-top:5rem;
+margin-bottom:4.9rem;
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
